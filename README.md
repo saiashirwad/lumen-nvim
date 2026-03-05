@@ -13,7 +13,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    "texoport/lumen-nvim",
+    "saiashirwad/lumen.nvim",
     cmd = { "LumenDiff", "LumenDiffCurrentFile" },
     keys = {
         { "<leader>ld", "<cmd>LumenDiff<cr>", desc = "Lumen Diff" },
@@ -57,7 +57,7 @@ With lazy.nvim, pass these as `opts`:
 
 ```lua
 {
-    "texoport/lumen-nvim",
+    "saiashirwad/lumen.nvim",
     cmd = { "LumenDiff", "LumenDiffCurrentFile" },
     keys = {
         { "<leader>ld", "<cmd>LumenDiff<cr>", desc = "Lumen Diff" },
